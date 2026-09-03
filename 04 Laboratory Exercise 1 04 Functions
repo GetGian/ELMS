@@ -1,0 +1,31 @@
+<HTML>
+<HEAD>
+    <TITLE>My JavaScript</TITLE>
+</HEAD>
+
+<BODY>
+<SCRIPT>
+
+function find_longest_word(str)
+{
+    var words = str.match(/\w[a-z]{0,}/gi);
+    var result = words[0];
+
+    for(var x = 1; x < words.length; x++)
+    {
+        if(result.length < words[x].length)
+        {
+            result = words[x];
+        }
+    }
+
+    return result;
+}
+
+var stringVal = prompt("Enter a string value");
+
+alert(find_longest_word(stringVal));
+
+</SCRIPT>
+</BODY>
+</HTML>
