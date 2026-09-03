@@ -1,0 +1,20 @@
+<HTML>
+<HEAD>
+    <TITLE>Date Object</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT>
+
+var today = new Date();
+var birthday = new Date("2007-01-01");
+var christmas = new Date("2026-12-25");
+var newyear = new Date("2027-01-01");
+
+document.write("Current Date: " + today);
+document.write("<br>My Birthday: " + birthday);
+document.write("<br>Christmas: " + christmas);
+document.write("<br>New Year: " + newyear);
+
+</SCRIPT>
+</BODY>
+</HTML>
