@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple JavaScript</title>
+</head>
+<body>
+
+<script>
+    document.write("<h1>Hello!</h1>");
+    document.write("<p><b>My name is Gian.</b></p>");
+    document.write("<p><i>I am learning JavaScript.</i></p>");
+
+    document.write("<hr>");
+
+    document.write("<h2>About Me</h2>");
+    document.write("<p>I like playing games and spending time on my computer.</p>");
+</script>
+
+</body>
+</html>
