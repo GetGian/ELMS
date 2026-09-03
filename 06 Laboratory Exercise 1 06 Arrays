@@ -1,0 +1,16 @@
+<HTML>
+<HEAD>
+    <TITLE>My JavaScript</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT>
+
+myColor = ["Red", "Green", "White", "Black"];
+
+document.write(myColor.toString() + "<br>");
+document.write(myColor.join() + "<br>");
+document.write(myColor.join("+") + "<br>");
+
+</SCRIPT>
+</BODY>
+</HTML>
