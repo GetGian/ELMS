@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+    <TITLE>My jQuery Page</TITLE>
+    <SCRIPT SRC="https://code.jquery.com/jquery-3.7.1.min.js"></SCRIPT>
+
+    <SCRIPT>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(this).animate({
+                    width: "200px"
+                }, 500);
+            });
+        });
+    </SCRIPT>
+</HEAD>
+
+<BODY>
+    <H2>My Page</H2>
+    <P>Click the button!</P>
+    <BUTTON>Click Me!</BUTTON>
+</BODY>
+</HTML>
