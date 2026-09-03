@@ -1,0 +1,25 @@
+<HTML>
+<HEAD>
+    <TITLE>My JavaScript</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT>
+
+var num = prompt("Enter a number");
+var result = "";
+
+for (var i = 0; i < num.length; i++)
+{
+    result += num[i];
+
+    if (num[i] % 2 == 0 && num[i + 1] % 2 == 0)
+    {
+        result += "-";
+    }
+}
+
+document.write(result);
+
+</SCRIPT>
+</BODY>
+</HTML>
